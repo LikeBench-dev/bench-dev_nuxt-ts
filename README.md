@@ -1,20 +1,20 @@
-# bench-client
+### BENCH DEV
 
-## Build Setup
+**[bench-dev.ru](http://bench-dev.ru)**
 
-```bash
-# install dependencies
-$ npm install
+> Version **1.0**
+>
+> История обновлений:
+>
+> ###### * **18.03.2021** ######
+>
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+> 18.09.2020 - Создание проекта
 
-# build for production and launch server
-$ npm run build
-$ npm run start
 
-# generate static project
-$ npm run generate
-```
+**Наименование**      | **Технологии написания**
+--------------------|----------------------
+*.vue        | Использование TS + SCSS
+store     | TS / axios / vuex-smart-module / vuex-persist for local storage
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
