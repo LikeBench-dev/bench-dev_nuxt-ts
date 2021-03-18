@@ -1,0 +1,116 @@
+ @import "mixin";
+@import "sizeFonts";
+
+ .theme-light {
+   // BG
+   --bg-background-primary: #F8F8F8;
+   --bg-background-secondary: #eeeeee;
+   --bg-background-ternary: #d7d7d7;
+
+   // BG Components
+   --bg-component-primary: #ffffff;
+
+   // Write ( text )
+   --text-write-primary: #0c0d0f;
+
+   // City
+   --city-background-primary: rgba(53, 67, 88, 0.18);
+
+   // Switch
+   --switch-color-primary: #ffffff;
+   --switch-background-primary: linear-gradient(#ffffff, #e9e7e7);
+   --switch-background-secondary: rgba(255, 230, 0, 1);
+   --switch-background-ternary: #e0e0e0;
+   --switch-border-primary: #f5f5f5;
+   --switch-boxshadow-primary: 0 0 10px rgba(255, 230, 0, .4),
+                               0 0 15px rgba(255, 230, 0, .4),
+                               0 0 20px rgba(255, 230, 0, .4),
+                               0 0 25px rgba(255, 230, 0, .4),
+                               0 0 0 2px rgba(255, 230, 0, .1);
+
+   // Controls
+   --input-bacground-primary: #ffffff;
+   --input-border-default: rgba(196, 196, 196, 0.5);
+   --input-border-primary: #2F80ED;
+   --input-text-primary: #161616;
+
+   --label-color-primary: #2F80ED;
+
+   // Link BG
+   --bg-link-primary: rgba(0, 0, 0, .08);
+
+   // Buttons
+   --buttons-default: #ffffff;
+
+   // Buttons Hover
+   --buttons-hover-default: #f8f8f8;
+
+   // Table
+   --table-tr-prime: #ffffff
+ }
+
+ .theme-dark {
+   // BG
+   --bg-background-primary: #0c0d0f;
+   --bg-background-secondary: #17181c;
+   --bg-background-ternary: #27292d;
+
+   // BG Components
+   --bg-component-primary: #000000;
+
+   // Write ( text )
+   --text-write-primary: #F8F8F8;
+
+   // City
+   --city-background-primary: rgba(65, 65, 65, 0.36);
+
+   // Switch
+   --switch-color-primary: #5d5d5d;
+   --switch-background-primary: linear-gradient(#000, #333);
+   --switch-background-secondary: transparent;
+   --switch-background-ternary: #222;
+   --switch-border-primary: #161616;
+   --switch-boxshadow-primary: none;
+
+   // Controls
+   --input-bacground-primary: #222;
+   --input-border-default: rgba(99, 99, 99, .5);
+   --input-border-primary: #2F80ED;
+   --input-text-primary: #e0e0e0;
+
+   --label-color-primary: #2F80ED;
+
+   // Link BG
+   --bg-link-primary: rgba(255, 255, 255, .08);
+
+   // Buttons
+   --buttons-default: #2f2e2e;
+
+   // Buttons Hover
+   --buttons-hover-default: #626262;
+
+   // Table
+   --table-tr-prime: #212121
+ }
+
+ :root {
+   // Border
+   --form-border-primary: #2F80ED;
+
+   // Logo
+   --logo-background-primary: #3C62E8;
+   --logo-background-secondary: #3C8CE8;
+   --logo-background-white: #F8F8F8;
+
+   // Buttons
+   --buttons-primary: #3C62E8;
+   --buttons-success: #26de81;
+   --buttons-warning: #fed330;
+   --buttons-danger: #fc5c65;
+
+   // Buttons Hover
+   --buttons-hover-primary: #5f7dea;
+   --buttons-hover-success: #A9EC92;
+   --buttons-hover-warning: #eed577;
+   --buttons-hover-danger: #fa848b;
+ }

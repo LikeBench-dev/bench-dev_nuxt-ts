@@ -1,0 +1,63 @@
+.background {
+  .primary {
+    background: var(--bg-background-primary);
+  }
+  .secondary {
+    background: var(--bg-background-secondary);
+  }
+  .ternary {
+    background: var(--bg-background-ternary);
+  }
+}
+
+.city {
+  .primary {
+    background: var(--city-background-primary);
+  }
+}
+
+.text {
+  .primary {
+    color: var(--text-write-primary);
+  }
+}
+.component {
+  .primary {
+    background: var(--bg-component-primary);
+  }
+}
+
+.border {
+  .primary {
+    border-color: var(--form-border-primary);
+  }
+}
+
+.logo {
+  .primary {
+    fill: var(--logo-background-primary);
+  }
+  .secondary {
+    fill: var(--logo-background-secondary);
+  }
+  .ternary {
+    fill: var(--logo-background-white);
+  }
+}
+
+/*  button: {
+    default: 'var(--buttons-default)',
+    success: 'var(--buttons-success)',
+    danger: 'var(--buttons-danger)',
+    warning: 'var(--buttons-warning)',
+    primary: 'var(--buttons-primary)'
+  },
+
+  buttonHover: {
+    default: 'var(--buttons-hover-default)',
+    success: 'var(--buttons-hover-success)',
+    danger: 'var(--buttons-hover-danger)',
+    warning: 'var(--buttons-hover-warning)',
+    primary: 'var(--buttons-hover-primary)'
+  }*/
+
